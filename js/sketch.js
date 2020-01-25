@@ -17,7 +17,7 @@ range.addEventListener('input', () => {
         while (cells.length > nSpawnedCells)
             cells.pop()
         while (cells.length < nSpawnedCells)
-            cells.push(new Cell(getRandomInt(75, width - 75), getRandomInt(75, height - 75), 75, ctx))
+            cells.push(new Cell(getRandomInt(50, width - 50), getRandomInt(50, height - 50), 50, ctx))
     }
 })
 canvas.addEventListener('mousemove', (e) => {
@@ -35,8 +35,8 @@ divRanges.appendChild(range)
 divRanges.appendChild(button)
 divRanges.appendChild(nCellsLabel)
 
-const width = 800
-const height = 800
+const width = 600
+const height = 600
 canvas.width = width
 canvas.height = height
 let nSpawnedCells = range.value / 5
