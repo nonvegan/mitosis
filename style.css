@@ -8,8 +8,8 @@ body {
 
 canvas {
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: block;
     background-color: #2a2a2e;
     border: 5px solid white;
