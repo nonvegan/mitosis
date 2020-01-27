@@ -43,7 +43,7 @@ let nSpawnedCells = range.value / 5
 const cells = new Array
 
 for (let i = 0; i < nSpawnedCells; i++) {
-    cells.push(new Cell(getRandomInt(75, width - 75), getRandomInt(75, height - 75), 75, ctx))
+    cells.push(new Cell(getRandomInt(50, width - 50), getRandomInt(50, height - 50), 50, ctx))
 }
 
 canvas.addEventListener('click', click => {
